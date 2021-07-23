@@ -1,6 +1,5 @@
 ﻿# Use the maskrcnn for the humanpose keypoints detection
 mask rcnn can be used to the human keypoints detection
-![image](https://github.com/SanjunLiu/PersonMultiTask/blob/master/results/000000131556.jpg)
 
 this code is heavily borrowed from [Keypoints-of-humanpose-with-Mask-R-CNN](https://github.com/chrispolo/Keypoints-of-humanpose-with-Mask-R-CNN)
 
@@ -85,8 +84,6 @@ See examples in  `samples/shapes/train_shapes.ipynb`,  `samples/coco/coco.py`,  
  train for 160k iterations, starting from a learning rate of 0.02 and reducing it by 10 at 60k and 80k iterations. I  use bounding-box NMS with a threshold of 0.5.I use the Tesla P100 16g ,spent about 48 hours.
 
 ## The results shows
-
-![humanestimtion](https://github.com/SanjunLiu/PersonMultiTask/blob/master/results/video1.png)
 ![humanestimation2](https://github.com/SanjunLiu/PersonMultiTask/blob/master/results/video2.png)
 ![ResNet101_MRCNN](https://github.com/SanjunLiu/PersonMultiTask/blob/master/results/result_coco_val2017.jpeg)
 ## Suggestions
